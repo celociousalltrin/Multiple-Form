@@ -4,7 +4,7 @@ import SignUp from "./SignUp";
 import Private from "./Private";
 import Other from "./Other";
 
-//PROPS PASSED AS FUNCTION BUT IT NOT WORKING
+
 const Form = () => {
   const [title, setTitle] = useState(0);
 
