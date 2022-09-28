@@ -5,7 +5,7 @@ const Other = ({handleChange, formData}) => {
     <div>
     <input type="text" placeholder = "Favourites.." name = "favourites" value={formData.favourites} onChange={handleChange}/>
     <br />
-    <input type="text" placeholder='Anything...' name = "anything" alue={formData.anything} onChange={handleChange}/> 
+    <input type="text" placeholder='Anything...' name = "anything" value={formData.anything} onChange={handleChange}/> 
 </div>    
   )
 }
